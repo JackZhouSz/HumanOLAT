@@ -47,7 +47,7 @@ xr
     Each capture contains
     1. 1 white light illumination frame
     2. 2 gradient illumination frames
-    3. 10 environment map captures
+    3. 11 environment map captures
     4. 331 OLAT illuminations 
     collected over a total duration of ~10s.
 
