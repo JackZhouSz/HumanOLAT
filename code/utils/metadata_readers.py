@@ -111,13 +111,13 @@ def read_calib(calib_dir, IMAGE_W, INTR, EXTR, scale_to_meters=False, DISTOR=Non
     INTR : list
         an empty! list for storing read intrinsics
     EXTR : list
-        an empty! list for storing read extrinsics (default setting: world-to-camera extrinsics in mm scale)
+        an empty! list for storing read extrinsics (default setting: camera-to-world extrinsics in mm scale)
     scale_to_meters : bool, optional
         scale the read intrinsics to meters
     DISTOR : list, optional
         an empty! list for storing read distortion coefficents
     invert_extr : list, optional
-        return world-to-camera (w2c) extrinsics instead of camera-to-world (c2w)
+        return  camera-to-world (c2w) extrinsics instead of world-to-camera (w2c)
     focal_length : list, optional
         an empty! list for storing read focal lengths
     Returns
